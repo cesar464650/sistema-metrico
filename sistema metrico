@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+main (void)
+{
+	float m, ft;
+	
+	printf("Conversion de metros a pies\n");
+	printf("Digite la cantidad que desea convertir:\n");
+	scanf("%f",&m);
+	
+	ft=3.28*m;
+	
+	printf("La conversion es:%f\n",ft);
+}
